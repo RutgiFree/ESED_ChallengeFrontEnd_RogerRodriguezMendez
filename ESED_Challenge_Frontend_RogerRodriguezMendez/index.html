@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ESED Challenge</title>
+</head>
+<body>
+
+    <div id = "contenidor">
+        <header id="capçalera">
+            <img src="logo.png" width="200px">
+        </header>
+
+        <div class="fix"></div>
+
+        <section id="contingut">
+            <div class="c_element">
+                <h1>
+                    Your Email address*
+                </h1>
+                <p>
+                    May we have your email address?
+                </p>
+                <!-- serie milor ficar un placeholder? -->
+                <input class="interactionUser interactionUserText" type="email"></input>
+            </div>
+
+            <div class="c_element">
+                <h1>
+                    Type*
+                </h1>
+                <p>
+                    Would you like to give as Feedback, Question or Complaint?
+                </p>
+
+                <select class="interactionUser interactionUserSelector">
+                    <option value="" disabled selected >Select your type</option>
+                    <option value="Feedback">Feedback</option>
+                    <option value="Question">Question</option>
+                    <option value="Complaint">Complaint</option>
+                </select>
+
+            </div>
+
+            <div class="c_element">
+                <h1>
+                    Category*
+                </h1>
+                <p>
+                    To which department would you like to send the form?
+                </p>
+                <select class="interactionUser interactionUserSelector">
+                    <option value="" disabled selected>Select the department</option>
+                    <option value="Department 1">Department 1</option>
+                    <option value="Department 2">Department 2</option>
+                    <option value="Department 3">Department 3</option>
+                </select>
+            </div>
+           
+            <div id="b_enterContainer" >
+                <button id="b_enter" type="button">Next</button>
+            </div>
+        </section>
+
+
+
+    </div>
+    
+    
+
+
+</body>
+</html>

@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fix{
+    clear: both;
+}
+
+body{
+    background-color: white;
+}
+
+
+#capçalera{
+    float: right;
+    margin: 20px;
+}
+
+#contenidor{
+    width: 95%;
+    margin: 2%;
+    border: 5px solid #ff0303;
+    border-radius: 12px;
+}
+
+#contingut{
+    float: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+
+#b_enterContainer{
+    text-align: right;
+    width: 100%;
+}
+#b_enter{
+    width: 250px;
+    height: 50px;
+    font-size: 25px;
+    color: white;
+    background-color: green;
+    border-color: green;
+    border-radius: 5px;
+    transition-duration: 0.2s;
+}
+#b_enter:hover{
+    background-color: #ffffff;
+    color: black;
+}
+
+#b_enter:active{
+    background-color: #4CAF50;
+    color: white;
+}
+
+.c_element{
+    margin-bottom: 3rem;
+}
+
+p{
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.interactionUser{
+    height: auto;
+    background-color: lightgray;
+    border: 0px;
+
+    font-size: 18px;
+
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.interactionUserText{
+    width: 98%;
+}
+
+.interactionUserSelector{
+    width: 100%;
+}
